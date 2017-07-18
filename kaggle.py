@@ -34,8 +34,6 @@ for i in os.listdir('/home/opletts/Stuff/test'):
     x,y,w,h = cv2.boundingRect(c)
     cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)   
     
-    cv2.imshow('og', img)
-    
     #img = img[y:y+h, x:x+w]    
 
     #img = cv2.resize(img, (244,244))    
